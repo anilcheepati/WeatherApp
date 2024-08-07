@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import Search from '../search/Search'
 
 
+
+
 const Weather = () => {
 
-
+    // Initial loading state and a function to update the loading page state
     const [loading, setLoading] = useState(false)
+    
     const [weatherData, setWeatherData] = useState(null)
 
     async function fetchWeatherData(cityName) {
