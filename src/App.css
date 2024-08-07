@@ -11,7 +11,11 @@ body{
   border-radius: 20px;
   height: 470px;
   padding: 20px 15px;
-  background: rgb(0,255,166);
+  background: #219C90;
+}
+
+.App.warning-bg {
+  background-color: #40679E;  /* Example warning color */
 }
 
 .search-input {
@@ -97,4 +101,17 @@ body{
   align-items: center;
   line-height: 1px;
 }
+
+
+
+
+.error-message {
+  color: #FF0000;  /* Dark red color for the error message text */
+  background-color: #151515;  /* Light red background for error message */
+  padding: 10px;
+  border: 2px solid #F15A59;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
 
